@@ -1,0 +1,24 @@
+# Maven build output
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDE files
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+*.classpath
+*.project
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Spring Boot
+*.log
+logs/
+
+# Sensitive config — copy application.properties.example and fill in credentials
+banking_backend/src/main/resources/application.properties
